@@ -8,15 +8,19 @@ function Search() {
   }
 
   return (
-    <div className="container mx-auto my-2 px-8">
+    <div className="container mx-auto my-2 flex gap-2 px-8">
       <input
         type="text"
         name="search"
-        placeholder="Procurar por..."
-        className="w-full rounded border-2 border-amber-300 px-4 py-2 text-xl font-medium outline-none"
+        placeholder="Procurar por nome ou comunidade..."
+        className="w-full rounded border-2 border-amber-300 px-4 py-2 text-base font-medium outline-none"
         onChange={searchQuery}
         defaultValue={query}
       />
+      {/* Add button */}
+      <div className="flex items-center bg-slate-50">
+        <h2>a</h2>
+      </div>
     </div>
   );
 }
