@@ -12,14 +12,18 @@ function Search() {
       <input
         type="text"
         name="search"
-        placeholder="Procurar por nome ou comunidade..."
-        className="w-full rounded border-2 border-amber-300 px-4 py-2 text-base font-medium outline-none"
+        placeholder="Procurar por nome..."
+        className="h-9 w-full rounded border-2 border-amber-300 px-4 py-2 text-base font-medium outline-none"
         onChange={searchQuery}
         defaultValue={query}
       />
       {/* Add button */}
-      <div className="flex items-center bg-slate-50">
-        <h2>a</h2>
+      <div>
+        <button>
+          <span className="material-symbols-outlined text-3xl text-amber-600 transition-colors duration-300 hover:text-amber-400">
+            add_box
+          </span>
+        </button>
       </div>
     </div>
   );
