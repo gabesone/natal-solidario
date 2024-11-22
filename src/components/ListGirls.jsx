@@ -9,10 +9,6 @@ function ListGirls() {
     <div className="border-r">
       <h2 className="text-center text-xl font-medium lg:text-2xl">Meninas</h2>
       <div>
-        <ul className="grid grid-cols-[0.2fr_1fr] text-sm text-gray-600">
-          <li>I</li>
-          <li>Nome</li>
-        </ul>
         <ul>
           {testGirl.map((girl) => (
             <div key={girl.name} className="grid grid-cols-[0.2fr_1fr] text-sm">
